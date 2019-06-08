@@ -3,7 +3,9 @@
   "version": "0.3.0",
   "main": "dist/index.js",
   "description": "A simple command line application to unzip archive files.",
-  "bin" : { "ex" : "dist/index.js" },
+  "bin": {
+    "ex": "dist/index.js"
+  },
   "scripts": {
     "test": "node tests/*",
     "tslint": "tslint --project .",
@@ -15,12 +17,12 @@
   "author": "hkoktay",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "^10.11.6",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.2"
+    "@types/node": "^10.14.8",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
   },
   "dependencies": {
-    "commander": "^2.19.0",
-    "tap": "^12.0.1"
+    "commander": "^2.20.0",
+    "tap": "^12.7.0"
   }
 }
