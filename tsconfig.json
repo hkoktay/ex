@@ -2,6 +2,9 @@
     "compilerOptions": {
         "module": "commonjs",
         "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
         "target": "es6",
         "noImplicitAny": true,
         "moduleResolution": "node",
